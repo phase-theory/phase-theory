@@ -1,0 +1,151 @@
+████ LPST — GIBBER BALANCED HARMONIC ████
+████ GLOBAL PHASE-INCONSISTENCY FUNCTIONAL (EXPLICIT) ████
+
+✶Ω:PRIME[LPST_INCONSISTENCY ∧ FORMAL ∧ GRAPH_NATIVE ∧ PERIODIC_SAFE]
+
+⟡Θ:ONTOLOGY[
+SUBSTRATE:𝓛 := A·e^{iφ} ∧
+PRIMITIVES:{A_i≥0, φ_i∈R/2πZ, G=(V,E)} ∧
+NO_BACKGROUND:{SPACE=FALSE, TIME=FALSE}
+]
+
+⊕τ:STRUCTURE[
+NODES:V={i} ∧
+EDGES:E={(i,j)} ∧
+LOOPS:𝓛={ℓ} // loop-basis (plaquettes / fundamental cycles) ∧
+WEIGHTS:{w_ij≥0, λ_ℓ≥0}
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:WRAP_OPERATOR
+
+⟡Θ:DEFINE[
+WRAP(θ) := θ − 2π·round(θ/2π) ∈ (−π,π]
+]
+
+⊕τ:EDGE_PHASE_DIFFERENCE[
+Δφ_ij := WRAP(φ_j − φ_i)
+]
+
+∴Λ:LOOP_HOLONOMY[
+Ω_ℓ := WRAP( Σ_{(i,j)∈ℓ} Δφ_ij )
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:AMPLITUDE_CREDIBILITY
+
+⟡Θ:DEFINE[
+A₀ := VACUUM_AMPLITUDE_REFERENCE
+]
+
+⊕τ:WEIGHT_LOOP_BY_COHERENCE[
+ρ(A;ℓ) := Π_{i∈ℓ} (A_i/A₀)^2
+]
+
+∴Λ:INTENT[
+LOW_A ⇒ LOW_ENFORCEMENT ∧
+HIGH_A ⇒ STRONG_CLOSURE
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:GLOBAL_INCONSISTENCY_FUNCTIONAL_CANON
+
+⟡Θ:TERM_EDGE_LOCAL_MISMATCH[
+I_edge := Σ_{(i,j)∈E} w_ij · A_iA_j · (1 − cos(Δφ_ij))
+]
+
+⊕τ:TERM_LOOP_GLOBAL_CLOSURE[
+I_loop := Σ_{ℓ∈𝓛} λ_ℓ · ρ(A;ℓ) · (1 − cos(Ω_ℓ))
+]
+
+∴Λ:DEFINE[
+𝓘_canon[φ,A;G] := I_edge ⊕ I_loop
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:SECTOR_QUANTIZATION_OPTION
+
+⟡Θ:INTEGER_SECTOR[
+k_ℓ ∈ ℤ
+]
+
+⊕τ:UNWRAPPED_CLOSURE_ERROR[
+ε_ℓ := ( Σ_{(i,j)∈ℓ} Δφ_ij ) − 2πk_ℓ
+]
+
+∴Λ:DEFINE[
+𝓘_{2π}[φ,A,k;G] := Σ_{ℓ∈𝓛} λ_ℓ · ρ(A;ℓ) · (ε_ℓ)^2
+]
+
+⧉Σ:PHYSICAL_INCONSISTENCY[
+𝓘_quant[φ,A;G] := min_{ {k_ℓ∈ℤ} } 𝓘_{2π}[φ,A,k;G]
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:DYNAMICS_STATEMENT_LPST
+
+⟡Θ:ASSERT[
+DYNAMICS ≠ TIME_FLOW
+]
+
+⊕τ:ASSERT[
+DYNAMICS := CONSISTENCY_RELAXATION
+]
+
+∴Λ:LAW[
+ALLOWED_CONFIGURATIONS := argmin_{φ,A}( 𝓘_canon )  // or 𝓘_quant
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:DEFECT_INTERPRETATION
+
+⟡Θ:IF[
+Ω_ℓ ≈ 0 ⇒ CONSISTENT_LOOP
+]
+
+⊕τ:IF[
+Ω_ℓ ≠ 0 ⇒ FRUSTRATION/DEFECT_DENSITY
+]
+
+∴Λ:IF[
+k_ℓ ≠ 0 ⇒ QUANTIZED_TOPOLOGICAL_SECTOR (WINDING/FLUX)
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:CONTINUUM_LIMIT_SKETCH
+
+⟡Θ:MAP[
+EDGE_TERM → ∫ α·A^2·(∇φ)^2 d^n x
+]
+
+⊕τ:MAP[
+LOOP_TERM → ∫ β·A^4·(curl∇φ)^2 d^n x
+]
+
+∴Λ:NOTE[
+DEFECTS_ACTIVATE_NONINTEGRABILITY
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:SEAL
+
+⟡Θ:DECLARE[
+GLOBAL_INCONSISTENCY := LOOP_CLOSURE_DEFECT ⊕ LOCAL_MISMATCH
+]
+
+⊕τ:DECLARE[
+TOPOLOGY := INTEGER_SECTORS(k_ℓ) ∧
+MATTER := STABLE_MINIMA_WITH_NONTRIVIAL_SECTORS
+]
+
+∴Λ:SEAL[
+LPST := PHASE_FIRST ∧ CONSISTENCY_FIRST ∧ GEOMETRY_EMERGENT
+]
