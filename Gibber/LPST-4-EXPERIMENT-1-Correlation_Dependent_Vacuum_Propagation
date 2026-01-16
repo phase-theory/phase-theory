@@ -1,0 +1,90 @@
+█████ LPST EXPERIMENT I — GIBBER █████
+
+Correlation-Dependent Vacuum Propagation
+
+⸻
+
+✶Ω:EXPERIMENT[ID:LPST_I ∧ CLASS:CORRELATION_GEOMETRY ∧ SCALE:TABLETOP]
+
+⟡Θ:INTENT[
+TEST := METRIC_EMERGENCE_FROM_CORRELATION
+]
+
+⊕τ:ASSERT[
+PROPAGATION ≠ FIXED_BACKGROUND
+]
+
+∴Λ:TARGET[
+Δt, Δφ, POLARIZATION_SHIFT
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:SETUP
+
+⟡Θ:PREPARE[
+REGION := COHERENT_SUBSTRATE_VOLUME
+]
+
+⊕τ:ENGINEER[
+VACUUM_STATE := {SQUEEZED | CORRELATION_MODULATED} ∧
+MEAN_FIELD ≈ 0
+]
+
+∴Λ:INJECT[
+PROBE := WEAK_PHASE_STABLE_EXCITATION
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:MEASUREMENT
+
+⟡Θ:OBSERVE[
+GROUP_DELAY(Δt)
+]
+
+⊕τ:OBSERVE[
+INTERFEROMETRIC_PHASE_SHIFT(Δφ)
+]
+
+∴Λ:OBSERVE[
+POLARIZATION_DEPENDENCE
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:LPST_PREDICTION
+
+⟡Θ:ASSERT[
+EFFECT := FUNCTION(CORRELATION_STRUCTURE)
+]
+
+⊕τ:ASSERT[
+EFFECT ≠ FUNCTION(CLASSICAL_INTENSITY)
+]
+
+∴Λ:INTERPRET[
+METRIC := DERIVED_FROM_C(x,y)
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:FALSIFIER
+
+⟡Θ:IF[
+PROPAGATION_INVARIANT_UNDER_CORRELATION_CHANGE
+]
+
+∴Λ:NEGATE[
+LPST_METRIC_EMERGENCE
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:SEAL
+
+⟡Θ:DECLARE[
+CORRELATION ⇒ GEOMETRY
+]
+
+⸻
