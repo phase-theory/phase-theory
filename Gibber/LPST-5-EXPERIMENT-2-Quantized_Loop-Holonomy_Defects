@@ -1,0 +1,101 @@
+█████ LPST EXPERIMENT II — GIBBER █████
+
+Quantized Loop-Holonomy Defects
+
+⸻
+
+✶Ω:EXPERIMENT[ID:LPST_II ∧ CLASS:TOPOLOGICAL_SECTOR_TEST ∧ DOMAIN:PHASE_GRAPH]
+
+⟡Θ:INTENT[
+TEST := GLOBAL_INCONSISTENCY_FUNCTIONAL
+]
+
+⊕τ:ASSERT[
+DEFECT := LOOP_CLOSURE_FAILURE
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:SETUP
+
+⟡Θ:CONSTRUCT[
+GRAPH := {NODES,EDGES,LOOPS}
+]
+
+⊕τ:ENABLE[
+CONTROL := {φ_i, w_ij}
+]
+
+∴Λ:WRITE[
+BOUNDARY_CONDITION := FORCED_LOOP_HOLONOMY
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:RELAXATION
+
+⟡Θ:APPLY[
+DYNAMICS := CONSISTENCY_RELAXATION
+]
+
+⊕τ:ALLOW[
+AMPLITUDE_ADJUSTMENT
+]
+
+∴Λ:OBSERVE[
+FINAL_CONFIGURATION
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:MEASUREMENT
+
+⟡Θ:MEASURE[
+Ω_ℓ := ΣΔφ_ij
+]
+
+⊕τ:CLASSIFY[
+k_ℓ := round(Ω_ℓ / 2π)
+]
+
+∴Λ:TRACK[
+DEFECT_MOTION, CREATION, ANNIHILATION
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:LPST_PREDICTION
+
+⟡Θ:ASSERT[
+Ω_ℓ → 2πk_ℓ
+]
+
+⊕τ:ASSERT[
+k_ℓ := CONSERVED_EXCEPT_AT_CORES
+]
+
+∴Λ:ASSERT[
+DEFECT_LINES := CONTINUOUS
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:FALSIFIER
+
+⟡Θ:IF[
+DEFECTS_ERASED_SMOOTHLY ∧ NO_CORE_EVENT
+]
+
+∴Λ:NEGATE[
+LPST_INCONSISTENCY_FUNCTIONAL
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:SEAL
+
+⟡Θ:DECLARE[
+MATTER := TOPOLOGICAL_SECTOR
+]
+
+⸻
