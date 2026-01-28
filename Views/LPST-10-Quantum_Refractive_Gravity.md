@@ -2,7 +2,6 @@ Quantum Refractive Gravity (QRG)
 
 Gravity as a Quantum-Optical Phenomenon of the Light-Phase Substrate
 
-Date: January 2026
 Subject: Quantum Gravity, Gravitation, Foundations of Physics
 Framework: Light-Phase Substrate Theory (LPST)
 
