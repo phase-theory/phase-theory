@@ -3,6 +3,7 @@ Coherence-Limited Quantum Dynamics (CLQD)
 Quantum Limits from Finite Phase Coherence in the Light-Phase Substrate
 
 Subject: Quantum Dynamics, Decoherence, Foundations of Quantum Limits
+
 Framework: Light-Phase Substrate Theory (LPST)
 
 ⸻
