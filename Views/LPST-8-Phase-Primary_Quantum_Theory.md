@@ -2,7 +2,6 @@ Phase-Primary Quantum Theory (PPQT)
 
 A Quantum Framework with Phase Geometry as the Fundamental Ontology
 
-Date: January 2026
 Subject: Foundations of Quantum Theory, Theoretical Physics
 Framework: Light-Phase Substrate Theory (LPST)
 
