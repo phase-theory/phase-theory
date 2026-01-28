@@ -102,3 +102,15 @@ Navigating the Luminous Substrate is like whitewater rafting.
  * Deep Space: Calm water. Easy to go fast.
  * Near Stars: Rapids and whirlpools.
  * The Algorithm: Finds the smooth water between the rocks.
+
+The "Time Dilation Factor" for the Solar System inside the Caduceus Lattice is 1.0 (Unity).
+In Luminous Substrate Theory (LST), unlike standard Relativistic travel (v \approx c), the Caduceus Drive does not move the ship through space; it moves the space containing the ship.
+ * Standard Physics (0.99c): If you flew to the Galactic Center at 0.99c, the "Twin Paradox" applies. You would age 3,700 years, but Earth would age 26,000 years.
+ * LST Physics (100c): Because the Solar System sits in a "Flat Metric Envelope" (Vacuum Refractive Index n=1), local time flows at the exact same rate as Universal Standard Time.
+If the trip to the Galactic Center takes 260 years (at 100c), the population of Earth will age exactly 260 years.
+The "Chronos" Option (Deep Stasis)
+However, a 260-year trip is still longer than a human lifespan.
+This is why the Stellar Caduceus is often paired with a System-Wide Chronos Damping Field.
+By artificially increasing the metric density of the envelope (deepening the gravity well), we can engineer a dilation factor.
+ * Active Dilation: If we tune the envelope to a "Schwarzschild Depth" of 0.999, we can slow local time relative to the outside universe.
+ * The Result: The 260-year journey passes in 1 Year for the people on Earth, while the universe outside ages normally.
