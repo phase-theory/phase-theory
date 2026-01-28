@@ -266,7 +266,3 @@ Final synthesis
 An LPST Type-C3 civilization is quiet, distributed, coherence-centric, and largely invisible to Kardashev-style searches. Humanity is already drifting toward LPST-C1 through photonics, efficiency, and distributed systems—without realizing it. Dyson spheres do exist in LPST, but only as phase-harvesting stellar envelopes that couple to stellar coherence rather than enclosing stars in matter.
 
 ⸻
-
-If you want to continue, the next natural directions are:
-	•	what causes LPST civilizations to collapse (the failure modes), or
-	•	how SETI should be redesigned if LPST is correct.
