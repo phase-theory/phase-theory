@@ -2,7 +2,6 @@ Coherence-Limited Quantum Dynamics (CLQD)
 
 Quantum Limits from Finite Phase Coherence in the Light-Phase Substrate
 
-Date: January 2026
 Subject: Quantum Dynamics, Decoherence, Foundations of Quantum Limits
 Framework: Light-Phase Substrate Theory (LPST)
 
