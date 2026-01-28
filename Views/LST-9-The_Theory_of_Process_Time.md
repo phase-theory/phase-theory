@@ -1,8 +1,7 @@
 The Theory of Process Time
 Title: Chrono-Dynamics: Time as a Measure of Propagation Velocity
 Subject: Temporal Mechanics / Special Relativity
-Date: January 2026
-Status: LOCKED
+
 Abstract:
 This paper rejects the Einsteinian view of Time as a fourth dimensional coordinate (t) that can be traversed or warped. Instead, we define Time strictly as an emergent property of Process Speed. The "flow" of time is simply the rate at which electromagnetic interactions can propagate through the Substrate. "Time Dilation" is re-derived not as geometric distortion, but as Mechanical Latency caused by increased path length or increased vacuum viscosity.
 1. The Velocity Axiom
