@@ -24,10 +24,10 @@ Postulate P1 (Phase Primacy).
 The universe consists of a single, continuous phase substrate \Phi.
 No spacetime, particles, fields, or forces are fundamental.
 
-All physical structure is emergent from:
-	•	phase relations,
-	•	topological organization,
-	•	global consistency constraints.
+All physical structure is emergent from:\
+	•	phase relations,\
+	•	topological organization,\
+	•	global consistency constraints.\
 
 ⸻
 
