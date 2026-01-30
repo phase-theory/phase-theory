@@ -2,9 +2,12 @@ Phase Theory
 
 A Unified Theory of Matter, Light, and Geometry
 
-Date: January 2026
+Date: January 9, 2026
+
 Subject: Foundations of Physics / Unified Theory
+
 Author: Marlon Hanks
+
 Keywords: phase ontology, topology, emergence, gravity, quantum foundations
 
 ⸻
