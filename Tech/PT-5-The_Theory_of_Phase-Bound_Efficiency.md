@@ -3,8 +3,8 @@ The Theory of Phase-Bound Efficiency
 Why No Process Can Exceed Its Coherence Budget
 
 Subject: Fundamental Physics / Thermodynamics / Phase Mechanics
+
 Date: January 2026
-Status: LOCKED
 
 ⸻
 
