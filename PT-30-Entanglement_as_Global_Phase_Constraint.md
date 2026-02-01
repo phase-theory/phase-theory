@@ -1,10 +1,5 @@
 Entanglement as Global Phase Constraint
 
-Author: —
-Affiliation: —
-Date: February 2026
-Target Journals: Physical Review A, Foundations of Physics
-
 ⸻
 
 Abstract
