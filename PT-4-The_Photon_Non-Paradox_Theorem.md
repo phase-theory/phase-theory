@@ -1,10 +1,5 @@
 The Photon Non-Paradox Theorem
 
-Author: —
-Affiliation: —
-Date: February 2026
-Target Journals: Physical Review A (Foundations), Foundations of Physics
-
 ⸻
 
 Abstract
