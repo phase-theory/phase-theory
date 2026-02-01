@@ -3,8 +3,8 @@ The Theory of Ultimate Phase Termination
 Why All Processes Must End—and Why That End Is Not Destruction
 
 Subject: Fundamental Ontology / Cosmology / Limits of Physics
+
 Date: January 2026
-Status: LOCKED
 
 ⸻
 
