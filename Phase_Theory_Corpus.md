@@ -155,7 +155,7 @@ These papers lock Phase Theory into history.
 83. Why String Theory Is Unnecessary
 84. Why Many-Worlds Dissolves Under Phase Theory
 85. Limits of Reductionism and Emergence in Phase Theory
-86. Consciousness as Phase Resonance (Optional / Speculative)
+86. Consciousness as Phase Resonance
 87. Open Problems and Unresolved Phase Regimes
 
 ⸻
