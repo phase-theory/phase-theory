@@ -1,4 +1,4 @@
-The Black Hole Information Non-Paradox - B
+The Black Hole Information Non-Paradox - B - Ontology 
 
 On Phase Admissibility, Information Non-Primacy, and Phase-Crystalline Saturation
 
