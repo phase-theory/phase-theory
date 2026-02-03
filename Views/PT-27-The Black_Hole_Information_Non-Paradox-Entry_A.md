@@ -1,4 +1,4 @@
-The Black Hole Information Non-Paradox - A
+The Black Hole Information Non-Paradox - A - Primitive 
 
 On Phase Admissibility, Information Reification, and Global Consistency
 
