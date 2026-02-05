@@ -18,7 +18,7 @@ This is not a flaw. It is a structural paradox of global systems.
 
 1. Why LPST cannot fully deny alternative universes
 
-You are correct: LPST cannot claim that other universes are impossible in principle.
+LPST cannot claim that other universes are impossible in principle.
 
 Why?
 
@@ -60,7 +60,7 @@ This is analogous to:
 
 3. The bridge paradox (your most important insight)
 
-You stated:
+Statement:
 
 If a bridge between universes were ever connected, they would merge into or cancel one another.
 
