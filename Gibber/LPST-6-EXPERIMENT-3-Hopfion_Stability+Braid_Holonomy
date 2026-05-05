@@ -1,0 +1,89 @@
+█████ LPST EXPERIMENT III — GIBBER █████
+
+Hopfion Stability & Braid Holonomy
+
+⸻
+
+✶Ω:EXPERIMENT[ID:LPST_III ∧ CLASS:TOPOLOGICAL_PARTICLE ∧ DOMAIN:KNOT_SECTORS]
+
+⟡Θ:INTENT[
+TEST := PARTICLE_AS_TOPOLOGY
+]
+
+⊕τ:ASSERT[
+STABILITY := TOPOLOGICAL_PROTECTION
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:SETUP_STAGE_A
+
+⟡Θ:PREPARE[
+SUBSTRATE := SUPPORTS_INTERNAL_TEXTURE(u)
+]
+
+⊕τ:CREATE[
+CONFIG := KNOTTED_DEFECT
+]
+
+∴Λ:LABEL[
+INVARIANT := {LINKING | HOPF_CHARGE}
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:SETUP_STAGE_B
+
+⟡Θ:CONTROL[
+MOTION := ADIABATIC_DEFECT_TRANSLATION
+]
+
+⊕τ:EXECUTE[
+BRAID := DEFECT_A ⟳ DEFECT_B
+]
+
+∴Λ:READOUT[
+FINAL_INTERNAL_STATE
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:LPST_PREDICTION
+
+⟡Θ:ASSERT[
+KNOT_SECTOR := STABLE_UNDER_LOCAL_PERTURBATION
+]
+
+⊕τ:ASSERT[
+BRAID ⇒ HOLONOMY ≠ TRIVIAL_PHASE
+]
+
+∴Λ:ASSERT[
+RESULT := PATH_TOPOLOGY_DEPENDENT
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:FALSIFIER
+
+⟡Θ:IF[
+KNOT_DECAYS_WITHOUT_CORE_EVENT
+]
+
+⊕τ:OR_IF[
+BRAID_RESULT := GAUGE_REMOVABLE
+]
+
+∴Λ:NEGATE[
+LPST_PARTICLE_ONTOLOGY
+]
+
+────────────────────────────────────────────────────────────
+
+✶Ω:SEAL
+
+⟡Θ:DECLARE[
+PARTICLE := STABLE_INTERFERENCE_TOPOLOGY
+]
+
+⸻
